@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: #E9E9E9;
+    min-width: 320px;
+}
+
+body {
+    font-size: 0.36rem;
+}
+
+input,
+button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 0.88rem;
+    background: white;
+    display: flex;
+    margin-bottom: 0.2rem;
+    span {
+        &:nth-child(1) {
+            padding-left: 0.3rem;
+            line-height: 0.88rem;
+            font-size: 0.27rem;
+            img {
+                height: 0.27rem;
+            }
+        }
+        &:nth-child(2) {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            line-height: 0.88rem;
+            font-size: 0.33rem;
+        }
+        &:nth-child(3) {
+            padding-left: 0.3rem;
+            line-height: 0.88rem;
+            img {
+                height: 0.28rem;
+            }
+        }
+    }
+}
+
+section {
+    flex: 1;
+    .dian {
+        width: 100%;
+        height: 1.76rem;
+        background: white;
+        display: flex;
+        line-height: 1.76rem;
+        img {
+            margin-top: 0.31rem;
+            height: 1.22rem;
+            margin-left: 0.3rem;
+            margin-right: 0.4rem;
+        }
+        p {
+            font-size: 0.28rem;
+        }
+    }
+    .main {
+        margin-top: 1px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        li {
+            width: 100%;
+            height: 1.21rem;
+            display: flex;
+            img {
+                margin-left: 0.31rem;
+                margin-right: 0.32rem;
+                height: 0.40rem;
+                margin-top: 0.41rem;
+            }
+            dl {
+                flex: 1;
+                height: 1.20rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #E9E9E9;
+                dt {
+                    font-size: 0.30rem;
+                }
+                dd {
+                    margin-right: 0.31rem;
+                    font-size: 0.24rem;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 1.14rem;
+    background: #313131;
+    ul {
+        width: 100%;
+        height: 1.14rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:nth-child(1) {
+            padding-left: 0.20rem;
+        }
+        &:nth-child(2) {
+            padding-right: 0.20rem;
+        }
+    }
+}

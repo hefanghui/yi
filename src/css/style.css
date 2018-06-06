@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #E9E9E9;
+  min-width: 320px;
+}
+
+body {
+  font-size: 0.36rem;
+}
+
+input,
+button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 0.88rem;
+  background: white;
+  display: flex;
+  margin-bottom: 0.2rem;
+}
+
+header span:nth-child(1) {
+  padding-left: 0.3rem;
+  line-height: 0.88rem;
+  font-size: 0.27rem;
+}
+
+header span:nth-child(1) img {
+  height: 0.27rem;
+}
+
+header span:nth-child(2) {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  line-height: 0.88rem;
+  font-size: 0.33rem;
+}
+
+header span:nth-child(3) {
+  padding-left: 0.3rem;
+  line-height: 0.88rem;
+}
+
+header span:nth-child(3) img {
+  height: 0.28rem;
+}
+
+section {
+  flex: 1;
+}
+
+section .dian {
+  width: 100%;
+  height: 1.76rem;
+  background: white;
+  display: flex;
+  line-height: 1.76rem;
+}
+
+section .dian img {
+  margin-top: 0.31rem;
+  height: 1.22rem;
+  margin-left: 0.3rem;
+  margin-right: 0.4rem;
+}
+
+section .dian p {
+  font-size: 0.28rem;
+}
+
+section .main {
+  margin-top: 1px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+section .main li {
+  width: 100%;
+  height: 1.21rem;
+  display: flex;
+}
+
+section .main li img {
+  margin-left: 0.31rem;
+  margin-right: 0.32rem;
+  height: 0.40rem;
+  margin-top: 0.41rem;
+}
+
+section .main li dl {
+  flex: 1;
+  height: 1.20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+section .main li dl dt {
+  font-size: 0.30rem;
+}
+
+section .main li dl dd {
+  margin-right: 0.31rem;
+  font-size: 0.24rem;
+}
+
+footer {
+  width: 100%;
+  height: 1.14rem;
+  background: #313131;
+}
+
+footer ul {
+  width: 100%;
+  height: 1.14rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul:nth-child(1) {
+  padding-left: 0.20rem;
+}
+
+footer ul:nth-child(2) {
+  padding-right: 0.20rem;
+}
